@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Outer Rounded Pitch Shape -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2.5"
+        android:pathData="M 12,8 L 52,8 A 4,4 0 0,1 56,12 L 56,52 A 4,4 0 0,1 52,56 L 12,56 A 4,4 0 0,1 8,52 L 8,12 A 4,4 0 0,1 12,8 Z" />
+
+    <!-- Center Line -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2"
+        android:pathData="M 8,32 L 56,32" />
+
+    <!-- Center Circle -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2"
+        android:pathData="M 32,24 A 8,8 0 1,0 32,40 A 8,8 0 1,0 32,24 Z" />
+
+    <!-- AI Sparkle / Analytics Peak Nodes -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M 32,16 L 34,22 L 40,24 L 34,26 L 32,32 L 30,26 L 24,24 L 30,22 Z" />
+
+    <!-- Top Penalty Box -->
+    <path
+        android:strokeColor="#16A34A"
+        android:strokeWidth="1.5"
+        android:pathData="M 22,8 L 22,18 L 42,18 L 42,8" />
+
+    <!-- Bottom Penalty Box -->
+    <path
+        android:strokeColor="#16A34A"
+        android:strokeWidth="1.5"
+        android:pathData="M 22,56 L 22,46 L 42,46 L 42,56" />
+
+    <!-- AI Core Center Point -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M 32,30 A 2,2 0 1,0 32,34 A 2,2 0 1,0 32,30 Z" />
+</vector>
